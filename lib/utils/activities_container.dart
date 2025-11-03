@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../pages/journal_page.dart';
 import 'activities.dart';
 
 class ActivitiesContainer extends StatelessWidget {
@@ -12,10 +13,16 @@ class ActivitiesContainer extends StatelessWidget {
       child: Row(
         children: [
           SizedBox(width: 20),
-          Activities(
-            textDalam: "Journal",
-            icon: Icons.book_outlined,
-            warna: Colors.blue.shade100,
+          GestureDetector(
+            onTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => JournalPage()),
+            ),
+            child: Activities(
+              textDalam: "Journal",
+              icon: Icons.book_outlined,
+              warna: Colors.blue.shade100,
+            ),
           ),
           SizedBox(width: 10),
           Activities(
@@ -35,3 +42,5 @@ class ActivitiesContainer extends StatelessWidget {
     );
   }
 }
+
+

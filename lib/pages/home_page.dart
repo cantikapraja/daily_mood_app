@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:happy_project/utils/background_color.dart';
+import 'package:happy_project/utils/bottom_nav_bar.dart';
 
-import '../utils/activities.dart';
 import '../utils/activities_Container.dart';
 import '../utils/daily_mood.dart';
 import '../utils/home_text.dart';
@@ -25,6 +25,7 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       body: Stack(
+        alignment: AlignmentDirectional.bottomCenter,
         children: [
           BackgroundColor(),
           SafeArea(
@@ -73,19 +74,10 @@ class _HomePageState extends State<HomePage> {
                 ),
                 ActivitiesContainer(),
                 SizedBox(height: 20),
-                Padding(
-                  padding: const EdgeInsets.only(top: 20, left: 20, right: 20),
-                  child: Container(
-                    height: 75,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(50),
-                      border: Border.all(color: Colors.black, width: 1.5),
-                    ),
-                  ),
-                ),
               ],
             ),
           ),
+          BottomNavBar(),
         ],
       ),
     );
