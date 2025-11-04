@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DailyMood extends StatelessWidget {
-  const DailyMood({
-    super.key,
-  });
+  const DailyMood({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,10 +10,7 @@ class DailyMood extends StatelessWidget {
       children: [
         Text(
           "Daily mood",
-          style: TextStyle(
-            fontSize: 25,
-            fontWeight: FontWeight.w500,
-          ),
+          style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
         ),
         SizedBox(height: 10),
         Row(
@@ -30,10 +25,7 @@ class DailyMood extends StatelessWidget {
                 image: DecorationImage(
                   image: AssetImage("assets/images/happy.jpg"),
                 ),
-                border: Border.all(
-                  color: Colors.black,
-                  width: 1.5,
-                ),
+                border: Border.all(color: Colors.black, width: 1.5),
               ),
             ),
             Container(
@@ -45,10 +37,7 @@ class DailyMood extends StatelessWidget {
                 image: DecorationImage(
                   image: AssetImage("assets/images/smile.jpg"),
                 ),
-                border: Border.all(
-                  color: Colors.black,
-                  width: 1.5,
-                ),
+                border: Border.all(color: Colors.black, width: 1.5),
               ),
             ),
             Container(
@@ -60,10 +49,7 @@ class DailyMood extends StatelessWidget {
                 image: DecorationImage(
                   image: AssetImage("assets/images/normal.jpg"),
                 ),
-                border: Border.all(
-                  color: Colors.black,
-                  width: 1.5,
-                ),
+                border: Border.all(color: Colors.black, width: 1.5),
               ),
             ),
             Container(
@@ -73,12 +59,9 @@ class DailyMood extends StatelessWidget {
                 color: Colors.amber,
                 shape: BoxShape.circle,
                 image: DecorationImage(
-                  image: AssetImage("assets/images/bete.jpg"),
+                  image: AssetImage("assets/images/bad.jpg"),
                 ),
-                border: Border.all(
-                  color: Colors.black,
-                  width: 1.5,
-                ),
+                border: Border.all(color: Colors.black, width: 1.5),
               ),
             ),
             Container(
@@ -90,10 +73,7 @@ class DailyMood extends StatelessWidget {
                 image: DecorationImage(
                   image: AssetImage("assets/images/angry.jpg"),
                 ),
-                border: Border.all(
-                  color: Colors.black,
-                  width: 1.5,
-                ),
+                border: Border.all(color: Colors.black, width: 1.5),
               ),
             ),
           ],

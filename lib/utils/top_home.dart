@@ -14,7 +14,9 @@ class topHome extends StatelessWidget {
 
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            image: DecorationImage(image: AssetImage("assets/images/pfp.jpg")),
+            image: DecorationImage(
+              image: AssetImage("assets/images/download.jpg"),
+            ),
           ),
         ),
         Container(

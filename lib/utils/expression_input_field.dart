@@ -15,7 +15,10 @@ class WriteExpression extends StatelessWidget {
       ),
       child: Padding(
         padding: const EdgeInsets.all(10),
-        child: Text("Ini Contoh dari teksnya", style: TextStyle(fontSize: 25)),
+        child: Text(
+          "I'm happy and I want to be better, I'll do my best every day",
+          style: TextStyle(fontSize: 25),
+        ),
       ),
     );
   }
