@@ -1,16 +1,24 @@
 # daily_mood_app
 
-This is a simple flutter UI project that focused on mental health awareness and mood tracking design. 
+This is a simple flutter UI project that focused on mental awareness and mood tracking design.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+"DailyMood" is a flutter application that created as UI concept project.
+The app showcase a multiple screen layouts such as onBoarding, moodTracking, and journalling pages.
 
-A few resources to get you started if this is your first Flutter project:
+## Final screen and App features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🖼️ Design Reference
+
+This UI design was inspired by:
+Mental Health Support App - Dribbble.
+Source link (https://dribbble.com/shots/26481307-Mental-Health-Support-App).
+
+*All design credit belongs to the original creator.*
+
+👩‍💻 Developer
+
+Created by Cantika Kesyanda Praja
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/cantikapraja/)
