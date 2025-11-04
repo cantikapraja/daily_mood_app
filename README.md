@@ -10,9 +10,11 @@ The app showcase a multiple screen layouts such as onBoarding, moodTracking, and
 ## Final screen and App features
 
 On boarding screen with start button to moodTracking page.
+
 <img src="assets/images/on_boarding.png">
 
 MoodTracking as a home screen, with time selection, search bar, daily mood check, and activity box.
+
 <img src="assets/images/mood_tracking.png">
 
 journaling page after click the activities box.
@@ -28,4 +30,5 @@ Source link (https://dribbble.com/shots/26481307-Mental-Health-Support-App).
 👩‍💻 Developer
 
 Created by Cantika Kesyanda Praja
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/cantikapraja/)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/cantikapraja/) @CantikaPraja
