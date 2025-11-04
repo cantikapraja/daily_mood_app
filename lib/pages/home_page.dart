@@ -1,6 +1,6 @@
+import 'package:daily_mood_app/utils/background_color.dart';
+import 'package:daily_mood_app/utils/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:happy_project/utils/background_color.dart';
-import 'package:happy_project/utils/bottom_nav_bar.dart';
 
 import '../utils/activities_Container.dart';
 import '../utils/daily_mood.dart';

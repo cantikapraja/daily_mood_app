@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:happy_project/utils/background_color.dart';
 
+import '../utils/background_color.dart';
 import '../utils/control_appbar.dart';
 import '../utils/header_page.dart';
 import '../utils/voice_note_button.dart';
-import '../utils/write_expression.dart';
+import '../utils/expression_input_field.dart';
 
-class JournalPage extends StatelessWidget {
-  const JournalPage({super.key});
+class JournalingPage extends StatelessWidget {
+  const JournalingPage({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../pages/journal_page.dart';
+import '../pages/journaling_page.dart';
 import 'activities.dart';
 
 class ActivitiesContainer extends StatelessWidget {
@@ -16,7 +16,7 @@ class ActivitiesContainer extends StatelessWidget {
           GestureDetector(
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => JournalPage()),
+              MaterialPageRoute(builder: (context) => JournalingPage()),
             ),
             child: Activities(
               textDalam: "Journal",
@@ -42,5 +42,3 @@ class ActivitiesContainer extends StatelessWidget {
     );
   }
 }
-
-
