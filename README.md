@@ -1,6 +1,6 @@
-# happy_project
+# daily_mood_app
 
-A new Flutter project.
+This is a simple flutter UI project that focused on mental health awareness and mood tracking design. 
 
 ## Getting Started
 
