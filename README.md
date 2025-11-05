@@ -19,7 +19,9 @@ The app showcase a multiple screen layouts such as onBoarding, moodTracking, and
 
 **journaling page after click the activities box.**
 
-## 🖼️ Design Reference
+<img src="assets/images/journaling.png">
+
+## Design Reference
 
 This UI design was inspired by:
 Mental Health Support App - Dribbble.
@@ -27,7 +29,7 @@ Source link (https://dribbble.com/shots/26481307-Mental-Health-Support-App).
 
 *All design credit belongs to the original creator.*
 
-👩‍💻 Developer
+# Developer
 
 Created by Cantika Kesyanda Praja
 
