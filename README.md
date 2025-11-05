@@ -21,7 +21,7 @@ The app showcase a multiple screen layouts such as onBoarding, moodTracking, and
 
 **journaling page after click the activities box.**
 
-<img src="assets/images/journaling.png">
+<img src="assets/images/journaling.png" width = 300>
 
 ## Design Reference
 
