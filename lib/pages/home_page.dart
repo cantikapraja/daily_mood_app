@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
                       topHome(),
                       SizedBox(height: 30),
                       homeText(),
-                      SizedBox(height: 10),
+                      const SizedBox(height: 10),
                       Row(
                         children: List.generate(times.length, (index) {
                           return Padding(
@@ -56,11 +56,11 @@ class _HomePageState extends State<HomePage> {
                           );
                         }),
                       ),
-                      SizedBox(height: 15),
+                      const SizedBox(height: 15),
                       searchBar(),
-                      SizedBox(height: 15),
+                      const SizedBox(height: 15),
                       DailyMood(),
-                      SizedBox(height: 20),
+                      const SizedBox(height: 20),
                       Text(
                         "Activities",
                         style: TextStyle(
@@ -68,12 +68,12 @@ class _HomePageState extends State<HomePage> {
                           fontWeight: FontWeight.w600,
                         ),
                       ),
-                      SizedBox(height: 10),
+                      const SizedBox(height: 10),
                     ],
                   ),
                 ),
                 ActivitiesContainer(),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
               ],
             ),
           ),

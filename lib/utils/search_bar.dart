@@ -27,3 +27,5 @@ class searchBar extends StatelessWidget {
     );
   }
 }
+
+

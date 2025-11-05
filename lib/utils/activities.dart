@@ -51,3 +51,4 @@ class Activities extends StatelessWidget {
     );
   }
 }
+

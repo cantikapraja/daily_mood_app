@@ -21,13 +21,13 @@ class JournalingPage extends StatelessWidget {
               child: Column(
                 children: [
                   ControlAppbar(),
-                  SizedBox(height: 30),
+                  const SizedBox(height: 30),
                   HeaderPage(),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   WriteExpression(),
-                  SizedBox(height: 10),
+                  const SizedBox(height: 10),
                   VoiceNoteButton(),
-                  SizedBox(height: 65),
+                  const SizedBox(height: 65),
                   Container(
                     height: 75,
                     decoration: BoxDecoration(
