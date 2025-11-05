@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import '../utils/background_color.dart';
-import '../utils/control_appbar.dart';
-import '../utils/header_page.dart';
-import '../utils/voice_note_button.dart';
-import '../utils/expression_input_field.dart';
+import '../../widgets/background_color.dart';
+import 'widgets/journal_control_appbar.dart';
+import 'widgets/journal_header_page.dart';
+import 'widgets/journal_voice_note_button.dart';
+import 'widgets/journal_expression_input.dart';
 
 class JournalingPage extends StatelessWidget {
   const JournalingPage({super.key});

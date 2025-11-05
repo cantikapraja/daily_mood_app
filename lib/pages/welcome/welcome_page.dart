@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../utils/background_color.dart';
-import 'home_page.dart';
+import '../../widgets/background_color.dart';
+import '../home/home_page.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});

@@ -1,13 +1,13 @@
-import 'package:daily_mood_app/utils/background_color.dart';
-import 'package:daily_mood_app/utils/bottom_nav_bar.dart';
+import 'package:daily_mood_app/widgets/background_color.dart';
+import 'package:daily_mood_app/pages/home/widgets/home_bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 
-import '../utils/activities_Container.dart';
-import '../utils/daily_mood.dart';
-import '../utils/home_text.dart';
-import '../utils/search_bar.dart';
-import '../utils/time.dart';
-import '../utils/top_home.dart';
+import '../../utils/activities_Container.dart';
+import 'widgets/home_daily_mood.dart';
+import 'widgets/home_text.dart';
+import 'widgets/home_search_bar.dart';
+import 'widgets/home_time.dart';
+import 'widgets/home_top_home.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

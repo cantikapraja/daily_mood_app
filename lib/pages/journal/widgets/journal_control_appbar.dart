@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../pages/home_page.dart';
+import '../../home/home_page.dart';
 
 class ControlAppbar extends StatelessWidget {
   const ControlAppbar({super.key});

@@ -1,7 +1,8 @@
+import 'package:daily_mood_app/models/activity_model.dart';
 import 'package:flutter/material.dart';
 
-import '../pages/journaling_page.dart';
-import 'activities.dart';
+import '../../journal/journal_page.dart';
+import 'home_activities.dart';
 
 class ActivitiesContainer extends StatelessWidget {
   const ActivitiesContainer({super.key});
@@ -19,22 +20,28 @@ class ActivitiesContainer extends StatelessWidget {
               MaterialPageRoute(builder: (context) => JournalingPage()),
             ),
             child: Activities(
-              textDalam: "Journal",
-              icon: Icons.book_outlined,
-              warna: Colors.blue.shade100,
+              activity: ActivityModel(
+                label: "Journal",
+                icon: Icons.book_outlined,
+                color: Colors.blue.shade100,
+              ),
             ),
           ),
           SizedBox(width: 10),
           Activities(
-            textDalam: "Singing",
-            icon: Icons.mic_external_on,
-            warna: Colors.red.shade100,
+            activity: ActivityModel(
+              label: "Singing",
+              icon: Icons.airline_seat_recline_extra_rounded,
+              color: Colors.purple.shade100,
+            ),
           ),
           SizedBox(width: 10),
           Activities(
-            textDalam: "studying",
-            icon: Icons.airline_seat_recline_extra_rounded,
-            warna: Colors.purple.shade100,
+            activity: ActivityModel(
+              label: "Studying",
+              icon: Icons.mic_external_on,
+              color: Colors.red.shade100,
+            ),
           ),
           SizedBox(width: 20),
         ],
