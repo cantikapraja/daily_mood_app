@@ -12,12 +12,12 @@ The app showcase a multiple screen layouts such as onBoarding, moodTracking, and
 **On boarding screen with start button to moodTracking page.**
 
 <img src="assets/images/on_boarding.png" width = 300>
-##
+
 
 **MoodTracking as a home screen, with time selection, search bar, daily mood check, and activity box.**
 
 <img src="assets/images/mood_tracking.png" width = 300>
-##
+
 
 **journaling page after click the activities box.**
 
