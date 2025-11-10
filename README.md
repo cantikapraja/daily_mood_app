@@ -35,4 +35,4 @@ Source link (https://dribbble.com/shots/26481307-Mental-Health-Support-App).
 
 Created by Cantika Kesyanda Praja
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/cantikapraja/) @CantikaPraja
+<a href="https://linkedin.com/in/cantikapraja" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cantikapraja" height="30" width="40" /></a> @CantikaPraja
